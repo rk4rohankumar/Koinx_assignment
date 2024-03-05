@@ -26,7 +26,7 @@ const Trending = () => {
         <div>
             <div className="flex flex-col bg-white shadow-md rounded-lg my-6 text-black text-xl">
                 <div className="flex p-4 font-bold border-gray-300 text-2xl">
-                    <div className="flex-1 text-xl">Trending Coins (24 Hr)</div>
+                    <div className="flex-1 text-xl my-2"><p className='text-2xl'>Trending Coins (24 Hr)</p></div>
                 </div>
                 {filteredTrending.map((crypto, index) => (
                     <div key={index} className="flex py-2 px-4 mb-2 items-center">

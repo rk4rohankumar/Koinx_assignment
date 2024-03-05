@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='flex justify-between shadow-xl'>
             <div className='m-5'>
-                <img src="https://lh7-us.googleusercontent.com/TvLUwSeXBErDf9yMpa2BwEOFA8EKepuCaus1b6f-4Qzz3yv4O2YcPRhJu1R1NaTxiF4UH7a6lt8xW4TVlw6W2TIPCZY5_5eKgKRREthnlVtAQ4dEg1rVt5nNzAMSTkjr2rvTiit06ELjWHGGsEH_4Q" alt="Koinx Logo" className='h-8 mx-16' />
+                <img src="https://i.ibb.co/kBjb3Cj/koinx-logo.png" alt="Koinx Logo" className='h-8 mx-16' />
             </div>
             <div className='flex items-center space-x-24 m-5 font-semibold'>
                 <Link to="/crypto-taxes" className="text-black hover:text-blue-500">

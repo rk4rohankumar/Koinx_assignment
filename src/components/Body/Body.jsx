@@ -4,6 +4,10 @@ import Trending from "../Trending.jsx";
 import AboutBitcoin from "../AboutBitcoin.jsx";
 import Team from "../Team.jsx";
 import Tokenomics from "../Tokenomics.jsx";
+import CardCarousel from "../CardCarousel.jsx";
+import Sentiment from "../Sentiment.jsx";
+
+
 
 
 const Body = () => {
@@ -15,6 +19,10 @@ const Body = () => {
           {/* bitcoin */}
           <div className="rounded-2xl">
             <Bitcoin />
+          </div>
+          {/* sentiment */}
+          <div className="mt-5 bg-white rounded-lg ">
+            <Sentiment></Sentiment>
           </div>
           {/* about bitcoin  */}
           <div className="flex mt-5 ">
