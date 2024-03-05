@@ -5,7 +5,7 @@ import './index.css';
 // import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import Body from "./components/Body";
+import Body from "./components/Body/Body";
 import Error from "./components/Error";
 
 
