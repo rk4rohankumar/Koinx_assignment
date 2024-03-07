@@ -17,16 +17,16 @@ const Body = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-slate-200 p-8">
-     {/* Left Column */}
-<div className="col-span-full md:col-span-2 mb-8 md:mb-0">
-  <div className="mx-4 md:ml-16 mt-16 md:rounded-xl">
-    {/* Bitcoin */}
-    <div className="rounded-2xl mb-5 md:mb-0" id="bitcoin">
-      <Bitcoin />
-    </div>
+      {/* Left Column */}
+      <div className="col-span-full md:col-span-2 mb-8 md:mb-0">
+        <div className="mx-4 md:ml-16 mt-16 md:rounded-xl">
+          {/* Bitcoin */}
+          <div className="rounded-2xl mb-5 md:mb-0" id="bitcoin">
+            <Bitcoin />
+          </div>
 
-     {/* Option */}
-     <div className="m-5 py-5 border-b-2 text-2xl border-gray-300">
+          {/* Option */}
+          <div className="m-5 py-5 border-b-2 text-2xl border-gray-300 ">
             <ul className="flex flex-wrap justify-center md:justify-between">
               <li className="mb-2">
                 <Link to="overview" smooth={true} duration={500}>
@@ -66,31 +66,31 @@ const Body = () => {
             </ul>
           </div>
 
-    {/* Overview */}
-    <div className="mt-5 bg-white" id="overview">
-      <Overview data={dummyData} />
-    </div>
-    {/* Sentiment */}
-    <div className="mt-5 bg-white rounded-lg" id="sentiment">
-      <Sentiment></Sentiment>
-    </div>
+          {/* Overview */}
+          <div className="mt-5 bg-white" id="overview">
+            <Overview data={dummyData} />
+          </div>
+          {/* Sentiment */}
+          <div className="mt-5 bg-white rounded-lg" id="sentiment">
+            <Sentiment></Sentiment>
+          </div>
 
-    {/* About Bitcoin */}
-    <div className=" mt-5 " id="bitcoin">
-      <AboutBitcoin />
-    </div>
+          {/* About Bitcoin */}
+          <div className=" mt-5 " id="bitcoin">
+            <AboutBitcoin />
+          </div>
 
-    {/* Tokenomics */}
-    <div className="bg" id="tokenomics">
-      <Tokenomics></Tokenomics>
-    </div>
+          {/* Tokenomics */}
+          <div className="bg" id="tokenomics">
+            <Tokenomics></Tokenomics>
+          </div>
 
-    {/* Team */}
-    <div className="mt-5" id="team">
-      <Team teamData={teamData} />
-    </div>
-  </div>
-</div>
+          {/* Team */}
+          <div className="mt-5" id="team">
+            <Team teamData={teamData} />
+          </div>
+        </div>
+      </div>
 
 
       {/* Right Column */}

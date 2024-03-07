@@ -47,7 +47,11 @@ const Trending = () => {
                                 <div className="ml-2">({crypto.item.symbol})</div>
                             </div>
                         </div>
-                        <div className="flex items-center bg-green-100 p-2 mx-1 rounded-lg text-green-700">
+                        <div  className={`flex items-center  p-2 mx-1 rounded-lg text-green-700 ${
+                            crypto.item.data.price_change_percentage_24h.usd >= 0
+                                ? `bg-green-100 text-green-700`
+                                : `bg-red-100  text-red-700`
+                        }`}>
                             {crypto.item.data.price_change_percentage_24h.usd >= 0 ? (
                                 <img src={greenArrow} alt="Upward arrow" className="w-4 h-4 mr-1" />
                             ) : (
@@ -55,6 +59,11 @@ const Trending = () => {
                             )}
                             <div className="mr-1">
                                 {Math.abs(crypto.item.data.price_change_percentage_24h.usd).toFixed(2)}%
+
+                               
+
+
+
                             </div>
                         </div>
                     </div>
