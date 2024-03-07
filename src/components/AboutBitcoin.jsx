@@ -1,5 +1,6 @@
 import React from 'react'
-import AboutCard from './AboutCard'
+import AboutCard from './AboutBitCoinCard'
+import { aboutBitcoinCardData } from '../utils/Data'
 
 const AboutBitcoin = () => {
     return (
@@ -24,8 +25,8 @@ const AboutBitcoin = () => {
                         <h1 className='text-3xl'>Already holding Bitcoin?</h1>
                     </div>
                     <div className='flex border-b-2 pb-3'>
-                        <AboutCard backgroundColor={'blue'} imageSrc={"https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/au/wp-content/uploads/2023/08/piggybank-sK-ziQvKGsk-unsplash-scaled-e1691736853555.jpg"} heading1={"Calculate your profit"} buttonLabel={"Check now"}></AboutCard>
-                        <AboutCard backgroundColor={'red'} imageSrc={"https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/au/wp-content/uploads/2023/08/piggybank-sK-ziQvKGsk-unsplash-scaled-e1691736853555.jpg"} heading1={"Calculate your profit"} buttonLabel={"Check now"}></AboutCard>
+                        <AboutCard props ={aboutBitcoinCardData} />
+                        <AboutCard props ={aboutBitcoinCardData}/>
                     </div>
                     <div className='my-3'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quod iste placeat id quisquam ad tempore modi enim doloribus fuga ipsa, in vel recusandae reiciendis! Excepturi architecto officiis aliquid dolores ut id voluptates consectetur quis debitis corporis, ea dolorum cupiditate dignissimos, doloremque, natus fuga eius iure reprehenderit alias! Iste totam quia eaque consequatur animi enim aperiam accusamus impedit sit nisi, cupiditate earum architecto magnam laborum voluptas maiores?

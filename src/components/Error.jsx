@@ -4,8 +4,7 @@ const Error = () => {
   return (
     <div>
       
-        <h1>404</h1>
-        <h1>Page not found</h1>
+        <img src="https://i.ibb.co/LppzMr6/wallpaperflare-com-wallpaper-2024-02-02-T012925-169.jpg" alt="" />
         
     </div>
   )

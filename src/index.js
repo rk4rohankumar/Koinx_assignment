@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import Body from "./components/Body/Body";
+import Body from "./components/Body";
 import Error from "./components/Error";
+import Footer from './components/Footer';
 
 
 
@@ -16,6 +15,7 @@ const AppLayout = () => {
         <div className="app">
           <Header />
           <Outlet />
+          <Footer />
         </div>
   );
 };

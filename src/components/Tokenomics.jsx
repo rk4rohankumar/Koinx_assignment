@@ -8,7 +8,7 @@ const Tokenomics = () => {
             </div>
             <div className='m-5'>
                 <h1>Initial Distribution</h1>
-                <img src="" alt="image chart" />
+                <img src="" alt="" />
 
             </div>
             <div className='m-5 pb-5 '>
